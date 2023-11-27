@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Falsettos Korea</title>
+    <meta
+      name="description"
+      content="A starter example with all elements and components used in Pico design system. Built with Pico CSS."
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+    </style>
+
+    <!-- Pico.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@next/css/pico.colors.min.css"
+    />
+    <style>
+      [data-theme="light"],
+      :root:not([data-theme="dark"]) {
+        --pico-text-selection-color: rgba(240, 96, 72, 0.25);
+        --pico-primary: #c52f21;
+        --pico-primary-background: #c52f21;
+        --pico-primary-underline: rgba(197, 47, 33, 0.5);
+        --pico-primary-hover: #9b2318;
+        --pico-primary-hover-background: #af291d;
+        --pico-primary-focus: rgba(240, 96, 72, 0.25);
+        --pico-primary-inverse: #fff;
+      }
+      body {
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      main.container {
+        max-width: 510px !important;
+        padding-top: 16px;
+      }
+      body > header {
+        position: sticky;
+        top: 0;
+        padding: 0 1rem 0 1rem;
+        background-color: var(--pico-primary-background);
+      }
+      body > header li {
+        padding: 12px 8px 12px 8px;
+        font-family: "Pacifico", cursive;
+        font-size: 1.2rem;
+        color: var(--pico-primary-inverse);
+      }
+
+      body > footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 0 0.7rem 1.2rem 0.7rem;
+      }
+      body > footer button {
+        width: 100%;
+        margin: 0;
+        line-height: 1.8;
+      }
+      .colored-centrify {
+        color: var(--pico-primary);
+        text-align: center;
+      }
+      .justify-content-center {
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="justify-content-center">
+        <ul>
+          <li>Musical Falsettos</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ./ Header -->
+
+    <!-- Main -->
+    <main class="container">
+      <section id="falsettos-poster">
+        <figure>
+          <img
+            src="img/falsettos-poster-500.webp"
+            alt="Falsettos Poster"
+            loading="eager"
+            width="500px"
+            height="581px"
+          />
+        </figure>
+        <br />
+        <p>
+          &nbsp;진정한 사랑의 의미를 깨닫는 시간. 미성숙한 네명의 남자들과 한
+          여자, 그리고 이들과 함께 살아가는 두명의 여자가 나와 펼치는 7인의
+          뮤지컬입니다.
+        </p>
+        <p>
+          &nbsp;팔세토스는 80년대 미국을 바탕으로 퀴어에 대한 새로운 시각을
+          던지고 성소수자뿐이 아닌 다양한 소수자(여성, 유대인, 이혼 가정의
+          아이)들을 얘기하며 그들을 통해 에이즈, 섹스, 정체성을 표현합니다.
+          팔세토스는 각 등장인물들의 성장을 통해 진정한 어른으로서의 모습이
+          무엇인지 알려줍니다.
+        </p>
+        <h3 class="colored-centrify">바미츠바</h3>
+        <article>
+          &nbsp;Bar Mitzvah 바 미츠바는 “율법의 아들”이라는 뜻을 내포하고 있으며
+          유대인들의 가장 중요한 의식 중 하나인 그들의 성인식을 말 합니다.<br /><br />
+          &nbsp;남자아이의 경우 만 13살, 여자 아이의 경우 만 12살이 되면 바
+          미츠바를 진행하고, 그들의 전통이나 윤리 그리고 도덕과 법에 대한
+          책임감을 부여, 그리고 유대교의 모든 정식 의례와 의식에 참여해야 할
+          권리와 의무를 가지게 됩니다. 이 ‘바 미츠바‘는 종교적으로 그리고
+          인종적으로 정체성을 부여하는 아주 중요한 의식입니다.
+        </article>
+        <p></p>
+      </section>
+      <!-- ./ Preview -->
+
+      <!-- Typography-->
+      <section id="typography">
+        <figure>
+          <img src="img/cast-schedule.png" alt="Falsettos Cast Schedule" />
+          <img
+            src="img/cast-character_01.webp"
+            alt="Falsettos Characters Marvin"
+          />
+          <img
+            src="img/cast-character_02.webp"
+            alt="Falsettos Characters Whizzer"
+          />
+          <img
+            src="img/cast-character_03.webp"
+            alt="Falsettos Characters Mendel"
+          />
+          <img
+            src="img/cast-character_04.webp"
+            alt="Falsettos Characters Jason"
+          />
+          <img
+            src="img/cast-character_05.webp"
+            alt="Falsettos Characters Trina"
+          />
+          <img
+            src="img/cast-character_06.webp"
+            alt="Falsettos Characters Charlotte"
+          />
+          <img
+            src="img/cast-character_07.webp"
+            alt="Falsettos Characters Cordelia"
+          />
+          <img
+            src="img/cast-character_08.webp"
+            alt="Falsettos Characters Together"
+          />
+          <img src="img/creatives.png" alt="Falsettos Creatives" />
+        </figure>
+      </section>
+    </main>
+    <!-- ./ Main -->
+
+    <!-- Footer -->
+    <footer>
+      <a
+        href="https://www.sejongpac.or.kr/portal/performance/performance/view.do?performIdx=34789&menuNo=200004"
+        ><button onclick="changeState(this)">예매하러 가기</button></a
+      >
+    </footer>
+    <!-- ./ Footer -->
+
+    <script>
+      function changeState(element) {
+        element.setAttribute("aria-busy", true);
+      }
+    </script>
+  </body>
+</html>
